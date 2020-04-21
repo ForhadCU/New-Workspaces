@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+  <!--
+        //Not obvious
+   <fragment
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:name="com.example.activityandfragment.L_mode_fragment"
+        android:id="@+id/lm_frag"
+        />
+    <fragment
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:name="com.example.activityandfragment.P_mode_fragment"
+        android:id="@+id/pm_frag"
+
+        //Not obvious
+        />-->
+
+<!--    <Button
+        android:id="@+id/pm_button_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="394dp"
+        android:layout_marginEnd="25dp"
+        android:text="Switch to (Portrait mode)" />
+
+    <Button
+        android:id="@+id/lm_buttonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pm_button_id"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="25dp"
+        android:text="Switch to (Landscape mode)" />-->
+
+
+</RelativeLayout>
